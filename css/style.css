@@ -1,4 +1,6 @@
-#jane-div2 {
+/* LARGE SCREEN */
+@media screen and (min-width:990px)  {
+  #jane-div2 {
   background: url('../img/img1.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +17,7 @@
 }
 
 form {
-  border:1px dashed red;
+  /* border:1px dashed red; */
   position: relative;
   /* width: 500px; */
   width: 100%;
@@ -53,14 +55,51 @@ form .fa {
   background-image: url('../img/img4.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 327px;
+  /* width: 327px; */
+  width: 96%;
   height: 166px;
 }
 
 #image5 {
+  /* border:1px dashed red; */
   background-image: url('../img/img3.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 436px;
+  /* width: 95%; */
   height: 259px;
 }
+
+#marpadd {
+  margin-left: 126px; 
+  padding-left: 63px;
+}
+
+}
+
+    /* MEDIUM */
+@media  screen and (min-width: 651px) and (max-width:989px) {
+
+  #image4 {
+    background-image: url('../img/img4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 327px; */
+    width: 96%;
+    height: 166px;
+  }
+
+ }
+
+    /* SMALLEST */
+    @media screen and (min-width: 0px) and (max-width:650px) {
+
+      #image4 {
+        background-image: url('../img/img4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* width: 327px; */
+        width: 96%;
+        height: 166px;
+      }
+
+    }
