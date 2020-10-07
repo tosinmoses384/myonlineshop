@@ -52,12 +52,12 @@ form .fa {
 }
 
 #image4 {
-  background-image: url('../img/img4.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* width: 327px; */
-  width: 109%;
-  height: 144px;
+  background-image: url(../img/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 327px; */
+    width: 73%;
+    height: 164px;
 }
 
 #image5 {
@@ -74,6 +74,10 @@ form .fa {
   padding-left: 63px;
 }
 
+#div-spec-1 {
+  display:none!important;
+}
+
 }
 
     /* MEDIUM */
@@ -86,6 +90,10 @@ form .fa {
     /* width: 327px; */
     width: 96%;
     height: 166px;
+  }
+
+  #div-spec-1 {
+    display:none!important;
   }
 
  }
@@ -109,8 +117,8 @@ form .fa {
       }
 
       #rowcard {
-        /* border:1px dashed red!important; */
-        width:112%!important;
+        width: 123%!important;
+        margin-left: -15px;
       }
 
       #recentOrder-up {
@@ -139,13 +147,19 @@ form .fa {
         display:none!important;
       }
 
-      /* #rowcard-1 {
-        border:1px dashed red!important;
-        width:100%!important;
-        display: flex!important;
-        flex-direction:column!important;
-        align-items:center!important;
-        justify-content:center!important;
-      } */
+      #width72 {
+        width: 75px!important;
+        
+      }
+
+      #width72 p {
+        font-size: 10px!important;
+        margin-left: -10px;
+      }
+
+      #imgicon {
+        width: 15px!important;
+        margin-left: 9px;
+      }
 
     }
