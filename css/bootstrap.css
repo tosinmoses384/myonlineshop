@@ -76,7 +76,15 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+}
+
+/* THIS IS MY CUSTOM CSS- START */
+/* #width72 p {
+  font-size: 10px!important;
+  margin-left: -10px;
+} */
+/* THIS IS MY CUSTOM CSS - ENDS */
 
 abbr[title],
 abbr[data-original-title] {
