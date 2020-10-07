@@ -80,6 +80,10 @@ form .fa {
   display:none!important;
 }
 
+#home nav {
+  display: none;
+}
+
 }
 
 
@@ -165,6 +169,10 @@ form .fa {
       #div-spec-1 {
         display:none!important;
       }
+
+      #home nav {
+        display: none;
+      }
     
      }
     
@@ -185,6 +193,10 @@ form .fa {
 
   #div-spec-1 {
     display:none!important;
+  }
+
+  #home nav {
+    display: none;
   }
 
  }
@@ -259,6 +271,7 @@ form .fa {
         width: 15px!important;
         margin-left: 9px!important;
       }
+
 
 /* %%%%%%%%%%%%%%%%%%%%%%
        BOTTOM ICON NAV BAR
