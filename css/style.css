@@ -99,7 +99,53 @@ form .fa {
         background-size: cover;
         /* width: 327px; */
         width: 96%;
-        height: 166px;
+        /* height: 166px; */
+        height: 233px;
       }
+
+      .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+
+      #rowcard {
+        /* border:1px dashed red!important; */
+        width:112%!important;
+      }
+
+      #recentOrder-up {
+        /* border:1px dashed red; */
+        width:108%!important;
+        margin-bottom: 30px!important;
+      }
+
+      #row-spec1 {
+        margin-bottom: 45px!important;
+      }
+
+      #my-listings {
+        /* border: 1px dashed red; */
+        width: 108%!important;
+        margin-bottom: 5px!important;
+      }
+
+      #div-spec-1 {
+        /* border: 1px dashed red!important; */
+        width:100%!important;
+        margin-top: -55px!important;
+      }
+
+      #div-spec-2 {
+        display:none!important;
+      }
+
+      /* #rowcard-1 {
+        border:1px dashed red!important;
+        width:100%!important;
+        display: flex!important;
+        flex-direction:column!important;
+        align-items:center!important;
+        justify-content:center!important;
+      } */
 
     }

@@ -13,8 +13,8 @@
 </head>
 
 <body id="home">
-  <section id="section1" style="height:100%; ">
-    <div class="row" style="width:100%; border:1px dashed red;">
+  <section id="section1" style="height:100%;">
+    <div class="row" style="width:100%;">
       
       <div id="jane-div1" class="col-lg-1 d-none d-lg-block text-center fixed-top" style="background-color:#f2f2f2; border-radius:45px; height:100%;">
 
@@ -88,10 +88,21 @@
           </div>
 
           <div class="row">
+            <div id="div-spec-1" style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:65%; padding-left:1rem;">
+            <h3 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:18px; color:#000;">Hi, John Doe</h3>
+            <!-- <h6 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:12px; color:#000; opacity: 0.4;">More</h6> -->
+            <a href="#" style="font-family:Lato; font-style:normal; font-weight:bold; font-size:12px; color:#000; opacity: 0.4;">
+              <img src="./img/img20.png" alt="img20" class="img20">
+            </a>
+          </div>
+          </div>          
+
+          <!-- row-spec1 is my custom class not bootstrap -->
+          <div id="row-spec1" class="row">
 
             <div class="col-md-6">
 
-                  <div style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:65%; padding-left:1rem;">
+                  <div id="div-spec-2" style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:65%; padding-left:1rem;">
                     <h3 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:18px; color:#000;">Total Sales</h3>
                     <h6 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:12px; color:#000; opacity: 0.4;">More</h6>
                   </div>
@@ -103,9 +114,10 @@
                     </div>
                   </div>
 
-                    <div class="row" style="width:80%;">
+                    <div id="rowcard" class="row" style="width:80%;" >
 
-                        <div class="col-md-3 mt-2">
+                      <!-- class="col-md-3 mt-2" -->
+                        <div id="rowcard-1" class="col-sm-3 col-md-3 mt-2">
                           <div class="card" style="width:81px; height:66px; background:#fff; box-shadow:0px 4px 4px rgba(0,0,0,0.25); border-radius:10px;">
                             <div class="card-body" style="width:100%; height:100%; padding-bottom:19px;" >
                               <!-- <i class="fa fa-plus-circle" style="color:#ABC32F; margin-left: 9px;"></i> -->
@@ -116,7 +128,7 @@
                         </div>
                         </div>
 
-                        <div class="col-md-3 mt-2"> 
+                        <div class="col-sm-3 col-md-3 mt-2"> 
                           <div class="card" style="width:81px; height:66px; background:#fff; box-shadow:0px 4px 4px rgba(0,0,0,0.25); border-radius:10px;">
                             <div class="card-body" style="width:100%; height:100%; padding-bottom:19px;" >
                              <a href=""><img src="./img/img13.png" alt="" class="img13"></a>
@@ -125,7 +137,7 @@
                         </div>
                         </div>
 
-                        <div class="col-md-3 mt-2">
+                        <div class="col-sm-3 col-md-3 mt-2">
                           <div class="card" style="width:81px; height:66px; background:#fff; box-shadow:0px 4px 4px rgba(0,0,0,0.25); border-radius:10px;">
                             <div class="card-body" style="width:100%; height:100%; padding-bottom:19px;" >
                               <!-- <i class="fa fa-plus-circle" style="color:#ABC32F; margin-left:9px;"></i> -->
@@ -135,7 +147,7 @@
                         </div>
                         </div>
 
-                        <div class="col-md-3 mt-2">
+                        <div class="col-sm-3 col-md-3 mt-2">
                           <div class="card" style="width:81px; height:66px; background:#fff; box-shadow:0px 4px 4px rgba(0,0,0,0.25); border-radius:10px;">
                             <div class="card-body" style="width:100%; height:100%; padding-bottom:19px;" >
                               <!-- <i class="fa fa-plus-circle" style="color:#ABC32F; margin-left:9px;"></i> -->
@@ -144,6 +156,7 @@
                             </div>
                         </div>
                         </div>
+
                 </div>
                
             </div>
@@ -165,7 +178,7 @@
 
           <div class="row">
             <div class="col-md-6">
-              <div style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:65%; padding-left:1rem;">
+              <div id="recentOrder-up" style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:65%; padding-left:1rem;">
                 <h3 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:18px; color:#000;">Recent Orders</h3>
                 <h6 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:12px; color:#000; opacity: 0.4;">More</h6>
               </div>
@@ -483,7 +496,8 @@
         </div>
       </div>
           <!-- THE LAST COLUMN -->
-      <div class="col-lg-3 d-none d-lg-block pt-3">
+      <div class="col-lg-3 d-none d-lg-block pt-3" style="border:1px dashed red;">
+
           <div class="row pr-2 mb-5">
             <div id="john-doe" style="display:flex; flex-direction:row; justify-content:space-around; align-items:center; width:100%;">
               <div id="first-div" style="display:flex; flex-direction:flex; justify-content:flex-end; align-items:center; width:70%; ">
@@ -499,14 +513,15 @@
             </div>
           </div>
 
-                <div class="row mb-3" style="width:100%;">
+                <div class="row mb-3" style="width:100%; border:1px dashed red;">
                 <div class="ml-3" style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:100%; padding-left:0rem;">
                   <h3 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:18px; color:#000;">Top Customers</h3>
                   <h6 style="font-family:Lato; font-style:normal; font-weight:bold; font-size:12px; color:#000; opacity: 0.4;">More</h6>
                 </div>
               </div>
 
-              <div class="row" style="width:100%;">
+              <div class="row" style="width:100%; border:1px dashed red;">
+
                 <div class="ml-1 mb-1" id="my-listings" style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:100%; padding-left:1rem;">
                   <img src="./img/img6.png" alt="img6" class="img-fluid">
                 <div class="unit-div">
@@ -523,8 +538,7 @@
                   <!-- <i style="color:#ABC32F;" class="fas fa-envelope-square"></i> -->
                   <a href=""><img src="./img/img19.png" alt="img19" class="img-fluid"></a>
                    Email
-                  </h4>
-                 
+                  </h4>   
               </div>
 
               <div class="ml-1 mb-1" id="my-listings" style="display:flex; flex-direction:row; justify-content:space-between; align-items:center; width:100%; padding-left:1rem;">
