@@ -1,7 +1,13 @@
  /* %%%%%%%%%%%%%%%
         LARGEST
     %%%%%%%%%%%%%%% */
+
 @media screen and (min-width:1512px)  {
+    .col-lg-8 {
+      flex: 0 0 99.666667%;
+      max-width: 99.666667%;
+  }
+
   #jane-div2 {
   background: url('../img/img1.png');
   background-repeat: no-repeat;
@@ -18,6 +24,10 @@
   justify-content: space-around;
 }
 
+/* #formContainer {
+  border:1px dashed red;
+} */
+
 form {
   /* border:1px dashed red; */
   position: relative;
@@ -30,7 +40,8 @@ form {
 }
 
 form input {
-  border: 0;
+    /* border:1px dashed red!important; */
+    border: 0;
     border-radius: 50px;
     font-size: 16px;
     padding: 17px 39px;
@@ -194,11 +205,158 @@ form .fa {
       }
 
      }
-    
+
+    /* %%%%%%%%%%%%%%%
+        SPECIAL FOR 768PX
+    %%%%%%%%%%%%%%% */
+    @media screen and (min-width: 768px) and (max-width:989px) {
+
+      .col-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+      }
+
+      #rowcard {
+        /* border: 1px dashed red; */
+        margin-left: -16px;
+        width: 229%!important;
+        padding-left: 25px;
+      }
+
+      #recentOrder-up {
+        /* border: 1px dashed red; */
+        width: 205%!important;
+        margin-bottom: 30px!important;
+      }
+
+      #row-spec1 {
+        margin-bottom: 45px!important;
+      }
+
+      #my-listings {
+        /* border: 1px dashed red; */
+        width: 208%!important;
+        margin-bottom: 5px!important;
+      }
+
+      #div-spec-1 {
+        /* border: 1px dashed red!important; */
+        width:100%!important;
+        margin-top: -55px!important;
+      }
+
+      #div-spec-2 {
+        display:none!important;
+      }
+
+      #width72 {
+        width: 75px!important;
+        
+      }
+
+      #width72 p {
+        font-size: 10px!important;
+        margin-left: -10px!important;
+      }
+
+      #width72 p.special-p {
+        font-size: 10px!important;
+        margin-left: -12px!important;
+      }
+
+      #imgicon {
+        width: 15px!important;
+        margin-left: 9px!important;
+      }
+
+      /* MORE STYLES -START */
+        /* #hijohn {
+          border: 1px dashed red!important;
+        } */
+
+        .col-md-8 {
+            /* border: 1px dashed red; */
+            margin-left: 150px;
+            flex: 0 0 66.6666666667%;
+            max-width: 66.6666666667%;
+        }
+
+          .container {
+              /* border: 1px dashed red; */
+              max-width: 720px;
+          }
+
+          #image4 {
+            background-image: url(../img/img4.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* width: 327px; */
+            width: 140%;
+            /* height: 166px; */
+            height: 144px;
+            margin-left: 74px;
+          }
+       
+      /* MORE STYLES - END */
+
+
+      /* %%%%%%%%%%%%%%%%%%%%%%
+       BOTTOM ICON NAV BAR
+    %%%%%%%%%%%%%%% */
+    body {
+      margin: 0 0 55px 0;
+  }
+  
+  .nav {
+      /* border: 1px dashed red; */
+      border-radius: 30px;
+
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 55px;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+      background-color: #ffffff;
+      /* background: #F2F2F2; */
+      display: flex;
+      overflow-x: auto;
+  }
+  
+  .nav__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      min-width: 50px;
+      overflow: hidden;
+      white-space: nowrap;
+      font-family: sans-serif;
+      font-size: 13px;
+      color: #444444;
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+      transition: background-color 0.1s ease-in-out;
+  }
+  
+  .nav__link:hover {
+      background-color: #eeeeee;
+  }
+  
+  .nav__link--active {
+      color: #009578;
+  }
+  
+  .nav__icon {
+      font-size: 18px;
+  }
+
+    }
+
     /* %%%%%%%%%%%%%%%
         MEDIUM
     %%%%%%%%%%%%%%% */
-@media screen and (min-width: 651px) and (max-width:989px) {
+@media screen and (min-width: 651px) and (max-width:767px) {
 
   #image4 {
     background-image: url('../img/img4.png');
